@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Matrimonial Biodata Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Matrimonial Biodata Form</h1>
+
+    <form enctype="multipart/form-data">
+
+        <div class="section">
+            <h3>Personal Information</h3>
+
+            <label>Upload Photograph:</label>
+            <input type="file" accept="image/*">
+
+            <label>Full Name:</label>
+            <input type="text" required>
+
+            <label>Date of Birth:</label>
+            <input type="date" required>
+
+            <label>Age:</label>
+            <input type="number" required>
+
+            <label>Gender:</label>
+            <div class="radio-group">
+                <input type="radio" name="gender" id="male" required>
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+            </div>
+
+            <label>Height:</label>
+            <input type="text" placeholder="e.g. 5'7&quot;">
+
+            <label>Marital Status:</label>
+            <select>
+                <option>Unmarried</option>
+                <option>Divorced</option>
+                <option>Widow/Widower</option>
+            </select>
+
+            <label>Religion:</label>
+            <input type="text">
+        </div>
+
+        <div class="section">
+            <h3>Education & Profession</h3>
+
+            <label>Education:</label>
+            <input type="text">
+
+            <label>Profession:</label>
+            <input type="text">
+
+            <label>Monthly Income:</label>
+            <input type="text">
+        </div>
+
+        <div class="section">
+            <h3>Family Details</h3>
+
+            <label>Father's Name:</label>
+            <input type="text">
+
+            <label>Mother's Name:</label>
+            <input type="text">
+        </div>
+
+        <div class="section">
+            <h3>Contact Details</h3>
+
+            <label>Contact Number:</label>
+            <input type="text">
+
+            <label>Address:</label>
+            <textarea rows="4"></textarea>
+        </div>
+
+        <button type="submit">Submit Biodata</button>
+
+    </form>
+</div>
+
+</body>
+</html>
