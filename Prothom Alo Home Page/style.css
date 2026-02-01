@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Top Header */
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.top-right span {
+    margin-left: 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Menu */
+.menu-bar {
+    padding: 10px 60px;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu-bar a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+/* Section */
+.section {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.section h2 {
+    color: red;
+}
+
+/* News */
+.news-wrapper {
+    width: 70%;
+    margin: auto;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.news-text {
+    width: 65%;
+}
+
+.news-text h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.news-text p {
+    font-size: 14px;
+    color: #555;
+}
+
+.news img {
+    width: 240px;
+    height: 150px;
+}
+
+/* Footer */
+.footer {
+    margin-top: 60px;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    color: #333;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+.footer-logo img {
+    height: 40px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-links div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 6px;
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.social a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.apps img {
+    height: 35px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.footer-bottom a {
+    margin: 0 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-bottom p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #666;
+}
