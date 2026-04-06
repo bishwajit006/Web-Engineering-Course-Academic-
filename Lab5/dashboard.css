@@ -1,0 +1,173 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+    background: #f85606;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 12px 40px;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.search-box {
+    display: flex;
+    width: 45%;
+    background: white;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.search-box button {
+    background: #f85606;
+    color: white;
+    border: none;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.menu a {
+    color: white;
+    margin-left: 15px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/* ================= BANNER ================= */
+.banner {
+    display: flex;
+    padding: 30px 40px;
+    background: radial-gradient(circle at center, #ffcc00, #ff6a00, #7a1f00);
+    align-items: center;
+    min-height: 350px;
+}
+
+/* LEFT SIDE */
+.banner-left {
+    width: 30%;
+    color: white;
+}
+
+.banner-left h4 {
+    background: white;
+    color: #f85606;
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.banner-left h1 {
+    font-size: 60px;
+    margin: 10px 0;
+    font-weight: 900;
+    color: white;
+    text-shadow: 0 0 10px yellow, 0 0 20px orange;
+}
+
+.banner-left p {
+    font-size: 18px;
+}
+
+.discount {
+    background: yellow;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    margin: 15px 0;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+/* CENTER IMAGE */
+.banner-center {
+    width: 40%;
+    text-align: center;
+}
+
+.banner-center img {
+    width: 90%;
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.4));
+}
+
+/* RIGHT SIDE */
+.banner-right {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+/* APP BOX */
+.app-box {
+    background: linear-gradient(to bottom, #ff7a00, #ff3c8d);
+    padding: 20px;
+    border-radius: 12px;
+    width: 260px;
+    text-align: center;
+    color: white;
+}
+
+.download {
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.features {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.qr {
+    width: 90px;
+    margin-top: 10px;
+}
+
+/* BUTTON */
+.btn {
+    background: yellow;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+/* ================= PROMO BAR ================= */
+.promo {
+    margin: 20px 40px;
+    background: linear-gradient(to right, #ff6a00, #ff8c00);
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.promo h2 {
+    font-size: 22px;
+}
